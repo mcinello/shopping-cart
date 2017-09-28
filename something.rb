@@ -23,18 +23,14 @@ class Something
   end
 
 #WRITERS
-  def base_price(base_price)
-    @base_price = base_price
-    return @base_price
-  end
-
-  def tax_rate(tax_rate)
-    @tax_rate = tax_rate
-    return @base_price
-  end
+  # def base_price(base_price)
+  #   @base_price = base_price
+  #   return @base_price
+  # end
+  #
+  # def tax_rate(tax_rate)
+  #   @tax_rate = tax_rate
+  #   return @base_price
+  # end
 
 end
-
-bananas = Something.new('bananas', 5.0)
-apples = Something.new('apples', 10.0)
-chicken = Something.new('chicken', 15.0)
